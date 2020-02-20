@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: #E0FFFF
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,
+  -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lid1 {
+  width: 180px;
+  height: 20px;
+  background: #85ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 70px;
+  border-top: 3px solid #bfffff;
+  webkit-box-shadow: -3px 2px 2px #b3ffff inset, 1px -2px 2px #00e6e6 inset;
+  moz-box-shadow: -3px 2px 2px #b3ffff inset, 1px -2px 2px #00e6e6 inset;
+box-shadow: -3px 2px 2px #b3ffff inset, 1px -2px 2px #00e6e6 inset;
+}
+
+.lid2 {
+  width: 185px;
+  height: 20px;
+  background: #85ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 50px;
+  webkit-box-shadow: -3px 2px 2px #b3ffff inset, 1px -2px 2px #00e6e6 inset;
+  moz-box-shadow: -3px 2px 2px #b3ffff inset, 1px -2px 2px #00e6e6 inset;
+     box-shadow: -3px 2px 2px #b3ffff inset, 1px -2px 2px #00e6e6 inset;
+  
+}
+
+.jar {
+  width: 240px;
+  height: 350px;
+  background: #85ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 55px;
+  border-bottom: 13px 8px  solid #2fb6b6;
+   box-shadow: -7px 8px 8px 	 #b3ffff inset, 1px -10px 3px #00e6e6 inset;
+}
+
+.glare {
+  position: relative;
+  left: 180px;
+  bottom: 0px;
+  transform: rotate(-49deg);
+  width: 35px;
+  height: 60px;
+  background: #99ffff;
+  border-radius: 100%;
+/*   border-right: 8px solid #bfffff; */
+}
+
+.logo1{
+  text-align: center;
+  margin-top: -.5em;
+  font-family: 'Apple Chancery';
+  font-style: 'oblique';
+  text-shadow: 2px 4px 3px #1fb8cc, 0 -3px 2px #ffffff;
+  color: #bfffff;
+  font-size: 70px;
+}
+
+.logo2{
+  text-align: center;
+  margin-top: -1.25em;
+  font-family: 'Apple Chancery';
+  font-style: 'oblique';
+ text-shadow: 2px 4px 3px #1fb8cc, 0 -3px 2px #ffffff;
+  color: #bfffff;
+  font-size: 70px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="lid1"></div>
+  <div class="lid2"></div>
+  <div class="jar">
+       <div class="glare"></div>
+    <h1 class="logo1">Batch</h1>
+    <h1 class="logo2">Tracker</h1>
+  </div>
+</div>
+</body>
+</html>
